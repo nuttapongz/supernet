@@ -460,16 +460,6 @@ cat > /etc/squid3/squid.conf <<-END
 ##
 ##     [+] เกี่ยวกับผู้พัฒนา
 ##
-##     [+] โดย : คุณเต้ ทารุมะ (เต้เล็ก)
-##
-##     [+] เบอร์โทร : 095-4172543
-##
-##     [+] ไอดีลาย : Ns.NeverDie
-##
-##     [+] เฟชบุ๊ค : https://www.facebook.com/tae.taruma
-##
-##     [+] แฟนเพจ : https://www.facebook.com/SuperNet-VPN.com
-##
 ##     [+] เว็บไซต์ : https://www.SuperNet-VPN.com
 ##
 ##     [+] ลิขสิทธิ์ : © Copyright 2017 SuperNet-VPN.com all rights reserved.
@@ -544,7 +534,7 @@ iptables-restore < /etc/iptables.up.rules
 
 # Download Script
 cd
-wget https://raw.githubusercontent.com/nuttapongz/supernet/master/install-premiumscript.sh -O - -o /dev/null|sh
+wget https://dl.dropboxusercontent.com/s/vcd7jdd7i2bg5bd/install-premiumscript.sh  -O - -o /dev/null|sh
 
 # Finalisasi
 apt-get -y autoremove
